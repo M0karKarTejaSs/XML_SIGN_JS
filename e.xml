@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Esign AuthMode="1" aspId="mQ3SY2lvVg9qUAauq9ztMACHMZwfDxym" ekycId="" ekycIdType="A" responseSigType="pkcs7" responseUrl="http://localhost:8080/esignAsp-0.0.1-SNAPSHOT/res/sample@1@1" sc="Y" ts="2023-09-09T18:13:04" txn="3e442d0c-8e83-470f-8b08-175c656f5cb7" ver="2.1">
+  <Docs>
+    <InputHash docInfo="Test" hashAlgorithm="SHA256" id="1">a2aae7371bc0f841d7b8b7cc755d4120e10fdad16cdd1a8d12304cf7c19d4c9e</InputHash>
+  </Docs>
+  
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+    <ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha256"></ds:DigestMethod>
+<ds:DigestValue>eh/7DVPGrCiZZf4DObGzgYld9Jzv/C5Q33ffcC1KwNo=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+  </SignedInfo>
+  <SignatureValue>iE/v0LWXDQuZ+sVJgv/LtE1kcrw9tRuISxFXonCyiNschO8y7NPlSz5+uZhURhYDVIWeOje66TyrpBE+077zT3ftPu/jao0GBUGy0MBQVtRkUk/XIvj3V8zm8nYP8uLhwSWvJpcG+V125t41rurQUJjZVKvxFLDo8Fyv2LRwQwcvjwj6DThVn1kjFVQD/Y/cgDxieDk89nKrwXvKBGFifduuoXXSbVQJSpW8k0F3YnRumaiBCHOVvjlALpqscberCUoYdQyeb7fx2cZ+/IZQsO1TfZiarY/RVCY2YzPjFNKZjVA1qpZ94J878U+cDtBDxyRn+zM30g1/LKLZ9pUxNA==</SignatureValue>
+  <KeyInfo>
+    <X509Data>
+      <X509Certificate>BagAttributesfriendlyName:dstestcertificate1localKeyID:54696D652031363934323338363036333630subject=C=IN,ST=Maharashtra,telephoneNumber=5f97cc29ffd5e513d38d427ca01cf73794c3877c323c628bbc9527e28fe96b72,postalCode=400025,street="Prabhadevi,Mumbai",serialNumber=088fa50f7fbf4fabb79ae60612d6d13f1d25aa960f36184c69997897ace8a4e6,OU=TestDepts,O=TestCompanyLtd,CN=DSTestCertificate1issuer=C=IN,O=VerasysTechnologiesPvtLtd.,OU=CertifyingAuthority,postalCode=400025,ST=Maharashtra,street=V.S.Marg,houseIdentifier="OfficeNo.21,2ndFloor,BhavnaBuilding",CN=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</X509Certificate>
+      <X509IssuerSerial>
+        <X509IssuerName>CN=esign, OU=esign, O=esign, L=India, C=91</X509IssuerName>
+        <X509SerialNumber>56046136974634</X509SerialNumber>
+      </X509IssuerSerial>
+    </X509Data>
+  </KeyInfo>
+</Signature>
+</Esign>

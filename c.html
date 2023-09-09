@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Esign
+  AuthMode="1"
+  aspId="mQ3SY2lvVg9qUAauq9ztMACHMZwfDxym"
+  ekycId=""
+  ekycIdType="A"
+  responseSigType="pkcs7"
+  responseUrl="http://localhost:8080/esignAsp-0.0.1-SNAPSHOT/res/sample@1@1"
+  sc="Y"
+  ts="2023-09-09T16:14:37"
+  txn="2532a2d3-2331-4099-8da0-39cca9f86893"
+  ver="2.1"
+>
+  <Docs>
+    <InputHash docInfo="Test" hashAlgorithm="SHA256" id="1">
+      aa9de1de54ea18c07b207592b2056ef8cf43d1e0327df83f6137bdc2606e50d8</InputHash
+    >
+  </Docs>
+
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:CanonicalizationMethod
+          Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+        >
+        </ds:CanonicalizationMethod>
+        <ds:SignatureMethod
+          Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256"
+        ></ds:SignatureMethod>
+        <ds:Reference URI="">
+          <ds:Transforms>
+            <ds:Transform
+              Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+            ></ds:Transform>
+            <ds:Transform
+              Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"
+            ></ds:Transform>
+          </ds:Transforms>
+          <ds:DigestMethod
+            Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha256"
+          ></ds:DigestMethod>
+          <ds:DigestValue
+            >eh/7DVPGrCiZZf4DObGzgYld9Jzv/C5Q33ffcC1KwNo=</ds:DigestValue
+          >
+        </ds:Reference>
+      </ds:SignedInfo>
+    </SignedInfo>
+    <SignatureValue>
+      eYtG7Zp6LGOsWz/yI0B18zgAJuypVQYRCc/4UKq+Yym8Xy1Q6n+xly4Huu3cmljMLtCJxoXaj83akyLAe/GE02QpYhOXKS9yYkhLI0ab79pSvsZz9QjEY62+pdf+t63Wq5JtFcQjd82aYAcyelFUhBdPmeHmk2/nhYA5vWXPUfKWehgsdABY8R6fr40gUI8EEzp4xH4YhGTMb5stLQFmMVt2UNGVse0X6yU3iecP7nDeQt7s33kKey6rLt6q5Ku0S5E+ye2b3NhnPfxfQsCKOUWyxYwFf/FGeQJA2aHk3gS6z6kQQZdfPMNfxEGDoi5AwiG2dl7VFOMe02383CM6YQ==
+    </SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>
+          2ETDydL6TkmzX3pQSvPiBJtN5tkbtlyF9RyCl9F4oh9JNRyGHSku/uKdgTAaemXmxjiC9r5mZ8ZcduAUSaPpk2amR+EEu80cYRyuvIMj46a8ihBA==
+        </X509Certificate>
+        <X509IssuerSerial>
+          <X509IssuerName
+            >CN=esign, OU=esign, O=esign, L=India, C=91</X509IssuerName
+          >
+          <X509SerialNumber>56046136974634</X509SerialNumber>
+        </X509IssuerSerial>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</Esign>
